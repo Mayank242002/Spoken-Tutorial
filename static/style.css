@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(208, 240, 229);
+}
+
+.heading{
+    color:black;
+    padding:10px;
+    align-items: center;
+    margin: auto;
+    width: 40%;
+    border: 3px solid green;
+}
+
+.title{
+    padding:10px;
+    padding-top: 50px;
+    padding-left: 480px;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+textarea{
+    padding-left: 700px;
+    margin-left: 300px;
+}
+select{
+    margin-left: 500px;
+}
+
+input{
+    
+    margin-left: 10px;
+}
+
+a{
+    color: black;
+}

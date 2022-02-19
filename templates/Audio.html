@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style2.css' %}">
+    <title>Merge video and audio</title>
+</head>
+<body>
+    <h1>Audio is Saved on the current folder</h1>
+    <form action="content">
+      <label for="file">Input Your Video and audio</label>
+      <input type="file" name="video" accept="video/*">
+      <input type="file" name="audio" accept="audio/*">
+      <button type="submit">Merge</button>
+    </form>
+
+    
+</body>
+</html>

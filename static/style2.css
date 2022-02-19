@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(208, 240, 229);
+}
+
+h1{
+    color:black;
+    padding:10px;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
